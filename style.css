@@ -145,12 +145,18 @@ header a:focus {
 
 .main-figcaption {
     text-align: center;
+    width: 270px;
+    height: 368px;
+}
+
+.stuff-figures-windows {
+    width: 250px;
+    height: 368px;
     background-color: #ffffff;
 }
 
-.stuff-figures-windows figure {
-    width: 250px;
-    height: 368px;
+img {
+    max-width: 100%;
 }
 
 .people-occupation {
