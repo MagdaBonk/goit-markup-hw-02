@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #000000;
 }
 
@@ -16,7 +16,7 @@ body {
 
 #main-page a {
     text-decoration: none;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -129,6 +129,7 @@ header a:focus {
 
 .stuff {
     background-color: #f5f4fa;
+    width: 100%;
 }
 
 .our-stuff {
@@ -142,9 +143,24 @@ header a:focus {
     list-style-type: none;
 }
 
-.stuff-figures-windows {
-    font-weight: 250px;
+.stuff-figures-windows figure {
+    width: 250px;
     height: 368px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.people-occupation {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+}
+
+.people {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
 }
 
 footer {
@@ -185,4 +201,15 @@ address {
 .main-address-link:hover,
 .main-address-link:focus {
     color: #2196f3;
+}
+
+.button-portfolio-all {
+    list-style-type: none;
+}
+
+.button-solution {
+}
+
+.check-portfolio {
+    list-style-type: none;
 }
