@@ -127,6 +127,25 @@ header a:focus {
     height: 294px;
 }
 
+.stuff {
+    background-color: #f5f4fa;
+}
+
+.our-stuff {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+}
+
+.stuff-figures {
+    list-style-type: none;
+}
+
+.stuff-figures-windows {
+    font-weight: 250px;
+}
+
 footer {
     background-color: #2f303a;
 }
