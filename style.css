@@ -143,12 +143,6 @@ header a:focus {
     list-style-type: none;
 }
 
-.main-figcaption {
-    text-align: center;
-    width: 270px;
-    height: 368px;
-}
-
 .stuff-figures-windows {
     width: 250px;
     height: 368px;
@@ -216,9 +210,43 @@ address {
     list-style-type: none;
 }
 
-.button-solution {
+.button-portfolio {
+    width: 93px;
+    height: 38px;
+    border: none;
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--links);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--button2);
+    background-color: #2196f3;
 }
 
 .check-portfolio {
     list-style-type: none;
+}
+
+.portfolio-things {
+    width: 370px;
+    height: 404px;
+}
+
+.portfolio-things-tittle {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    vertical-align: top;
+}
+
+.portfolio-text {
+    color: var(--contacts-color);
+    font-size: 16px;
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
 }
