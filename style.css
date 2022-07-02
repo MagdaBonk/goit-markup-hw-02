@@ -143,11 +143,14 @@ header a:focus {
     list-style-type: none;
 }
 
+.main-figcaption {
+    text-align: center;
+    background-color: #ffffff;
+}
+
 .stuff-figures-windows figure {
     width: 250px;
     height: 368px;
-    text-align: center;
-    background-color: #ffffff;
 }
 
 .people-occupation {
