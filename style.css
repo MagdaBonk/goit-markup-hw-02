@@ -7,6 +7,11 @@ body {
     --contacts-color: #757575;
     --links: #000000;
     --button: #2196f3;
+    --button2: #ffffff;
+    --footer-color: #2f303a;
+    --stress-color: #2196f3;
+    --main-front-size: 14px;
+    --letter-spacing: 0.03em;
 }
 
 #main-page a {
@@ -67,6 +72,7 @@ header a:focus {
     height: 120px;
     top: 280px;
     left: 452px;
+    letter-spacing: 0.06em;
     line-height: 1.36;
     text-transform: uppercase;
 }
@@ -81,32 +87,44 @@ header a:focus {
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
-    display: block;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--button2);
 }
 
-.advantages {
-    height: 101px;
-}
-
-.advantages li {
+.advantages ul {
     list-style-type: none;
-    display: inline;
 }
 
 .our-advantages {
-    display: inline;
+    font-weight: 700;
+    font-size: var(--main-front-size);
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
+    line-height: 100%;
 }
 
-.work li {
-    display: inline;
+.our-advantages-text {
+    font-size: var(--main-front-size);
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
+    line-height: 146%;
+    color: var(--contacts-color);
+}
+
+.work {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+}
+
+.our-work {
     list-style-type: none;
 }
 
-.stuff li {
-    list-style-type: none;
-    display: inline;
+.our-work-img img {
+    width: 370px;
+    height: 294px;
 }
 
 footer {
@@ -118,4 +136,33 @@ footer {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
+}
+
+.web2 {
+    color: var(--button);
+}
+
+.studio2 {
+    color: var(--button2);
+}
+
+address {
+    color: var(--button2);
+    font-size: var(--main-front-size);
+    vertical-align: top;
+    letter-spacing: var(--letter-spacing);
+    font-style: normal;
+}
+
+.main-address-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--main-front-size);
+}
+
+.main-address-link:hover,
+.main-address-link:focus {
+    color: #2196f3;
 }
